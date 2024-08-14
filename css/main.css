@@ -102,6 +102,7 @@ button {
 
 .theme {
   column-gap: 13px;
+  color: var(--black-color);
 }
 
 hr {
@@ -117,6 +118,11 @@ hr {
   background-color: var(--box-color);
   border-radius: 5px;
   border-top: 4px solid #178ff5;
+  cursor: pointer;
+}
+
+.box:hover {
+  background-color: #5c6070;
 }
 
 a {
@@ -181,7 +187,7 @@ a {
 }
 
 .box-copy-1 {
-  border-top: 4px solid rgb(255, 136, 0);
+  border-top: 4px solid rgb(253, 195, 102);
 }
 
 .active-box {
@@ -227,8 +233,11 @@ strong {
 
 .ovewview {
   position: relative;
-  top: -40px;
+  top: 0px;
   color: var(--black-color);
+  font-weight: 700;
+  font-family: "Inter";
+  color: var(--slate-color);
 }
 
 .boss-box {
@@ -238,7 +247,7 @@ strong {
   column-gap: 30px;
   row-gap: 24px;
   position: relative;
-  top: -35px;
+  top: 25px;
 }
 
 .down-color {
@@ -280,7 +289,7 @@ strong {
   }
 
   .active-boxes {
-    top: -60px;
+    top: -40px;
   }
 
   hr {
